@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-f
+
 @font-face {
   font-family: "MullerBold";
   src: url("../fonts/MullerBold.woff") format("woff");
@@ -351,16 +351,23 @@ h3 {
     text-align: center;
 }
 
-@media (max-width: 992px) { 
-.nav-item:not(:last-child) {
-  margin-right: 40px;
+.wrap-mald {
+  max-width: 600px;
+  margin: auto;
 }
-  .btn {
-  padding: 13px 5px;
- }
-  .nav {
-  padding: 0 15px;
+
+.wrap-mald h1 {
+  font-size: 50px;
 }
-  .photo-3{
+
+@media (max-width: 992px) {
+  .place1 {
+    width: calc(100% - 8px);
+  }
+  .place {
+    width: calc(100% - 8px);
+  }
+  .photo-1, .photo-2, .photo-3 {
+    max-width: 100%;
   }
 }
