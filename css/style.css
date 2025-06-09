@@ -358,6 +358,11 @@ h3 {
 
 .wrap-mald h1 {
   font-size: 50px;
+  text-align: center;
+}
+
+.wrap-mald img {
+  max-width: 600px;
 }
 
 @media (max-width: 992px) {
