@@ -33,9 +33,11 @@ body {
   font-size: 16px;
   background-color: #E5E5E5;
 }
- a{
-     text-decoration: none;
- }
+
+a {
+  text-decoration: none;
+}
+
 .header {
   max-width: 1170px;
   min-height: 154px;
@@ -145,7 +147,7 @@ h1 {
   background-image: url(../img/Component\ 15.jpg);
   background-repeat: no-repeat;
   background-position: left;
- }
+}
 
 .photo-2 {
   background-image: url(../img/Component\ 16.jpg);
@@ -347,8 +349,9 @@ h3 {
   align-items: center;
   margin-right: 5px;
 }
+
 .error {
-    text-align: center;
+  text-align: center;
 }
 
 .wrap-mald {
@@ -369,10 +372,14 @@ h3 {
   .place1 {
     width: calc(100% - 8px);
   }
+
   .place {
     width: calc(100% - 8px);
   }
-  .photo-1, .photo-2, .photo-3 {
+
+  .photo-1,
+  .photo-2,
+  .photo-3 {
     max-width: 100%;
   }
 }
